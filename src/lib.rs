@@ -610,7 +610,7 @@ impl<'ui> Ui<'ui> {
     }
     /// Get current window's position in pixels
     pub fn get_window_pos(&self) -> (f32, f32) {
-        let size = unsafe { sys::igGetWindowPos() };
+        let size = unsafe { sys::igGetWindowPos_nonUDT2() };
         size.into()
     }
 }

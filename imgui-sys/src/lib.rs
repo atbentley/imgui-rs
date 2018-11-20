@@ -225,7 +225,7 @@ extern "C" {
     pub fn igIsWindowFocused(flags: ImGuiFocusedFlags) -> bool;
     pub fn igIsWindowHovered(flags: ImGuiHoveredFlags) -> bool;
     pub fn igGetWindowDrawList() -> *mut ImDrawList;
-    pub fn igGetWindowPos() -> ImVec2;
+    pub fn igGetWindowPos_nonUDT2() -> ImVec2;
     pub fn igGetWindowSize() -> ImVec2;
     pub fn igGetWindowWidth() -> c_float;
     pub fn igGetWindowHeight() -> c_float;
