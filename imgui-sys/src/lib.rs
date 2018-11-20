@@ -226,7 +226,7 @@ extern "C" {
     pub fn igIsWindowHovered(flags: ImGuiHoveredFlags) -> bool;
     pub fn igGetWindowDrawList() -> *mut ImDrawList;
     pub fn igGetWindowPos_nonUDT2() -> ImVec2;
-    pub fn igGetWindowSize() -> ImVec2;
+    pub fn igGetWindowSize_nonUDT2() -> ImVec2;
     pub fn igGetWindowWidth() -> c_float;
     pub fn igGetWindowHeight() -> c_float;
     pub fn igGetContentRegionMax() -> ImVec2;
