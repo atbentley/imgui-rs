@@ -583,6 +583,7 @@ pub enum Condition {
 #[repr(i32)]
 #[derive(Copy, Clone, Debug, Eq, PartialEq)]
 pub enum Direction {
+    None = sys::ImGuiDir_None,
     Left = sys::ImGuiDir_Left,
     Right = sys::ImGuiDir_Right,
     Up = sys::ImGuiDir_Up,
